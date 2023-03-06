@@ -16,6 +16,7 @@ public class Child extends Parent {
 		c.setAge(30);
 		c.setName("Sujay");
 		c.setSchool("New English school");
-		System.out.println("Age : " + c.getAge() + " Name : " + c.getName() + " School : " + c.getSchool());
+		System.out.println(
+				"Parent Age : " + c.getAge() + " Parent Name : " + c.getName() + " Child School : " + c.getSchool());
 	}
 }
